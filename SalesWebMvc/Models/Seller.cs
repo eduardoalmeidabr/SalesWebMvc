@@ -11,6 +11,7 @@ namespace SalesWebMvc.Models
         public double BaseSalary { get; set; }
 
         public Department Department { get; set; }
+        public int DepartmentId { get; set; } // Chave estrangeira para o Entity Framework
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public Seller()

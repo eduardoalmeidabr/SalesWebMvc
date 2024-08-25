@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Components.Web;
-
-namespace SalesWebMvc.Models.ViewModels
+﻿namespace SalesWebMvc.Models.ViewModels
 {
     public class ErrorViewModel
     {
